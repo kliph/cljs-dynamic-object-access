@@ -6,8 +6,8 @@
   :clean-targets ^{:protect false} [:target-path "out" "resources/public/js"]
   :repl-options {:init-ns dev.repl}
   :min-lein-version "2.5.3"
-  :dependencies [[org.clojure/clojure "1.9.0-alpha12"]
-                 [org.clojure/clojurescript "1.9.229"]]
+  :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
+                 [org.clojure/clojurescript "1.9.293"]]
   :plugins [[lein-cljsbuild "1.1.4"]]
   :hooks [environ.leiningen.hooks]
   :figwheel {:css-dirs ["resources/public/css"]
