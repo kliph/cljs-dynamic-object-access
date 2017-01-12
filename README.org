@@ -1,3 +1,12 @@
 * Benchmarks for dynamic object access in ClojureScript
+** Goals
+*** aget access
+*** .-property access
+*** goog.object access
+** Sample data
+*** Small flat objects
+*** Large flat objects
+*** Small deeply nested objects
+*** Large deeply nested objects
 * To start
 =(figwheel-up)=
